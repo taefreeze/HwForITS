@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TaeFreeze\\Desktop\\VSCode\\man\\man.csproj": {}
+    "E:\\VSC\\man\\man.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TaeFreeze\\Desktop\\VSCode\\man\\man.csproj": {
+    "E:\\VSC\\man\\man.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TaeFreeze\\Desktop\\VSCode\\man\\man.csproj",
+        "projectUniqueName": "E:\\VSC\\man\\man.csproj",
         "projectName": "man",
-        "projectPath": "C:\\Users\\TaeFreeze\\Desktop\\VSCode\\man\\man.csproj",
-        "packagesPath": "C:\\Users\\TaeFreeze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TaeFreeze\\Desktop\\VSCode\\man\\obj\\",
+        "projectPath": "E:\\VSC\\man\\man.csproj",
+        "packagesPath": "C:\\Users\\potae\\.nuget\\packages\\",
+        "outputPath": "E:\\VSC\\man\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TaeFreeze\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\potae\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

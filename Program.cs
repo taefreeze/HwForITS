@@ -14,40 +14,47 @@ namespace man
         static void Main(string[] args)
         {   
             // สร้าง List ชื่อ "Weight"
-            List<string> Weight = new List<string>();
+            List<int> List = new List<int>();
+            List<int> pos = new List<int>();
             // ลำดับคนที่ สร้างมารับ
-            int number = 0;
+            int order = 1;
             // initial ของการทำงาน ให้รับค่าแรกของน้ำหนัก
-            Console.WriteLine("Please enter an integer");
-            string input = Console.ReadLine();
-            Weight.Add(input);
+            Console.WriteLine("Please enter Weight of #"+ order);
+            int Weight = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter Height of #" + order);
+            int Height = Convert.ToInt32(Console.ReadLine());
+            List.Add(Weight);
+            pos.Add(order);
+
             //ถ้าสูง ไม่ใช่ 170-185
-            while (input != "")
+            while (Height - Weight != 100)
             {
-                // รับค่าของคนถัดไป
-                Console.WriteLine("Please enter another integer: ");
-                input = Console.ReadLine();
-                Weight.Add(input);
                 // ลำดับ + 1
-                number += 1;
+                order += 1;
+                // รับค่าของคนถัดไป
+                Console.WriteLine("Please enter Weight of #" + order);
+                Weight = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please enter Height of #" + order);
+                Height = Convert.ToInt32(Console.ReadLine());
+                List.Add(Weight);
             }
             //ถ้าสูง 170-185 และส่วนต่าง = 100
-            if (input == "")
+            if (Height - Weight == 100 && Height >= 175 && Height <= 180)
             {
-                // วนรอบ เอาค่าใน List ออกมา
-                foreach (string value in Weight)
-                {
-                    Console.WriteLine(value);
-                }
-                Console.ReadLine();
-            }
-            // ทดสอบ เรียงข้อมูลใน List
-            // สร้างตัวแปรเรียงลำดับ
-            var DecendingOrder = Weight.OrderByDescending(i => i);
-            // วนรอบ เอาค่าใน List ออกมา (เรียงมากไปน้อยแล้ว)
-            foreach(string dinosaur in DecendingOrder)
-            {
-            Console.WriteLine(dinosaur);
+                Console.Clear();
+                Console.WriteLine("The best is number : " + order + "\nweight = " + Weight + "\nheight = " + Height);
+                Console.WriteLine(new string('-', 50));
+
+
+                int Min = List.Min();
+                int indexMin = List.IndexOf(List.Min()) +1;
+                Console.WriteLine("The fat is number : " + indexMin + "\nweight = " + Min);
+                Console.WriteLine(new string('-', 50));
+
+
+                int Max = List.Max();
+                int indexMax = List.IndexOf(List.Max()) +1;
+                Console.WriteLine("The slim is number : " + indexMax + "\nweight = " + Max);
             }
         }
     }
