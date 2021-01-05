@@ -11,25 +11,32 @@ namespace man
     {
         static void Main(string[] args)
         {
-            List<string> numbersInput = new List<string>();
+            List<string> Weight = new List<string>();
+            int number = 0;
 
             Console.WriteLine("Please enter an integer");
             string input = Console.ReadLine();
-            numbersInput.Add(input);
+            Weight.Add(input);
             while (input != "")
             {
                 Console.WriteLine("Please enter another integer: ");
                 input = Console.ReadLine();
-                numbersInput.Add(input);
+                Weight.Add(input);
+                number += 1;
             }
 
             if (input == "")
             {
-                foreach (string value in numbersInput)
+                foreach (string value in Weight)
                 {
-                    Console.WriteLine("The number that was added to the list is : " + " " + value);
+                    Console.WriteLine(value);
                 }
                 Console.ReadLine();
+            }
+            var DecendingOrder = Weight.OrderByDescending(i => i);
+            foreach(string dinosaur in DecendingOrder)
+            {
+            Console.WriteLine(dinosaur);
             }
         }
     }
