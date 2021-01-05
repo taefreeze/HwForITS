@@ -48,13 +48,13 @@ namespace man
 
                 int Min = List.Min();
                 int indexMin = List.IndexOf(List.Min()) +1;
-                Console.WriteLine("The fat is number : " + indexMin + "\nweight = " + Min);
+                Console.WriteLine("The slim is number : " + indexMin + "\nweight = " + Min);
                 Console.WriteLine(new string('-', 50));
 
 
                 int Max = List.Max();
                 int indexMax = List.IndexOf(List.Max()) +1;
-                Console.WriteLine("The slim is number : " + indexMax + "\nweight = " + Max);
+                Console.WriteLine("The fat is number : " + indexMax + "\nweight = " + Max);
             }
         }
     }
