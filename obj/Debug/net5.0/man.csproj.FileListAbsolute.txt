@@ -1,0 +1,16 @@
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.csprojAssemblyReference.cache
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.AssemblyInfoInputs.cache
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.AssemblyInfo.cs
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.csproj.CoreCompileInputs.cache
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\man.exe
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\man.deps.json
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\man.runtimeconfig.json
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\man.runtimeconfig.dev.json
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\man.dll
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\ref\man.dll
+C:\Users\TaeFreeze\Desktop\VSCode\man\bin\Debug\net5.0\man.pdb
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.dll
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\ref\man.dll
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.pdb
+C:\Users\TaeFreeze\Desktop\VSCode\man\obj\Debug\net5.0\man.genruntimeconfig.cache
